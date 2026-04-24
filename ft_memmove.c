@@ -6,7 +6,7 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:11:21 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/24 12:46:27 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/04/24 13:44:17 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,20 +44,4 @@ void	*ft_memmove(void *dest, const void *src, size_t size)
         }
     }
     return (dest);
-}
-
-#include <string.h>
-
-int main(void)
-{
-    char    str1[] = "Coucou";
-    char    str2[] = "C";
-
-    printf("Le premier tableau [%s]\n", str1);
-    printf("Le deuxieme tableau [%s]\n", str2);
-
-    ft_memmove(str1, str2, strlen(str2) + 1);
-    printf("Le resultat [%s]\n", str1);
-
-    return (0);
 }
