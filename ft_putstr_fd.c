@@ -1,36 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalpha.c                                       :+:      :+:    :+:   */
+/*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/20 11:05:01 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/23 10:36:26 by nbigot           ###   ########.fr       */
+/*   Created: 2026/04/21 17:10:53 by nbigot            #+#    #+#             */
+/*   Updated: 2026/04/23 11:37:43 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isalpha(int c)
+void    ft_putstr_fd(char *s, int fd)
 {
-	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
-		return (1);
-	else
-		return (0);
+    size_t i;
+    
+    i = 0;
+    while(s[i] != '\0')
+    {
+       write(fd, &s[i], 1);
+       i++; 
+    }
 }
 
-/*int	main(void)
+/*int main(void)
 {
-	char	test1 = 'a';
-	char	test2 = 'A';
-	char	test3 = '0';
-	char	test4 = ' ';
-
-	printf("Le resultat est %d\n", ft_isalpha(test1));
-	printf("Le resultat est %d\n", ft_isalpha(test2));
-	printf("Le resultat est %d\n", ft_isalpha(test3));
-	printf("Le resultat est %d\n", ft_isalpha(test4));
-
-	return (0);
+    ft_putstr_fd("Hasta la vista Baby", 1);
+    return (0);
 }*/

@@ -1,29 +1,13 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_lstiter.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
+/*   By: nbigot <nbigot@learner.42.tech>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/20 11:09:37 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/24 12:34:22 by nbigot           ###   ########.fr       */
+/*   Created: 2026/04/24 11:59:29 by nbigot            #+#    #+#             */
+/*   Updated: 2026/04/24 11:59:31 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
 
-size_t	ft_strlen(const char *s)
-{
-	size_t	i;
-
-	i = 0;
-	while (s[i])
-		i++;
-	return (i);
-}
-
-/*int	main(void)
-{
-	printf("Le resultat est : %zu\n", ft_strlen("Hasta"));
-	return(0);
-}*/

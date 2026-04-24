@@ -1,36 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalpha.c                                       :+:      :+:    :+:   */
+/*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/20 11:05:01 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/23 10:36:26 by nbigot           ###   ########.fr       */
+/*   Created: 2026/04/20 11:12:41 by nbigot            #+#    #+#             */
+/*   Updated: 2026/04/23 12:07:08 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isalpha(int c)
+int	ft_toupper(int c)
 {
-	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
-		return (1);
-	else
-		return (0);
+    if (c >= 97 && c <= 122)
+    {
+        c = c - 32;
+    }
+    return (c);
 }
 
-/*int	main(void)
+/*int main(void)
 {
-	char	test1 = 'a';
-	char	test2 = 'A';
-	char	test3 = '0';
-	char	test4 = ' ';
+    char    test1 = 'a';
 
-	printf("Le resultat est %d\n", ft_isalpha(test1));
-	printf("Le resultat est %d\n", ft_isalpha(test2));
-	printf("Le resultat est %d\n", ft_isalpha(test3));
-	printf("Le resultat est %d\n", ft_isalpha(test4));
-
-	return (0);
+    printf("Le resultat est : %c\n", ft_toupper(test1));
+    return (0);
 }*/
