@@ -6,7 +6,7 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 13:44:25 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/24 13:55:36 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/04/24 14:23:31 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,14 @@
 
 char	*ft_strchr(const char *s, int c)
 {
-    
+    while (1)
+    {
+	    if (*s == c)
+		    return (s);
+	    else if (c == '\0')
+		    return (NULL);
+	    else
+		    s++;
+    }
+    return (NULL);
 }
