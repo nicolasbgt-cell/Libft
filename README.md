@@ -13,7 +13,7 @@ This project aims to code a C library regrouping usual functions that we’ll be
 
 ## Ressources
 
-1. [C functions explanation](https://koor.fr/C/Index.wp)
+1. [C functions explanation](https://koor.fr/C/Index.wp)(https://linux.die.net/man/3/strlcpy)
 2. [ASCII Table](https://www.ascii-code.com/fr) et le MAN du terminal.
 3. [Makefile](https://dev.to/ashcript/comprendre-le-makefile-exemple-avec-le-langage-c-47n9)
-4. [AI](https://claude.ia) pour des explications sur des conceptes ou des definitions de mots comme "concatener".
+4. [AI](https://claude.ia) des definitions de mots comme "concatener".

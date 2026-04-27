@@ -6,7 +6,7 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 13:44:25 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/24 14:23:31 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/04/27 12:32:35 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,24 @@
 
 char	*ft_strchr(const char *s, int c)
 {
-    while (1)
+    while (*s)
     {
-	    if (*s == c)
-		    return (s);
-	    else if (c == '\0')
-		    return (NULL);
-	    else
-		    s++;
+	    if (*s == (char)c)
+		    return ((char *)s);
+	    s++;
     }
+    if ((char)c == '\0')
+	    return ((char *)s);
     return (NULL);
 }
+
+/*int	main(void)
+{
+	char	str[] = "Bonjour";
+	char	*result = ft_strchr(str, 'j');
+
+	printf("Le premier tableau[%s]\n", str);
+	printf("Apres [%c]\n", *result);
+	
+	return (0);
+}*/
