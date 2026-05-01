@@ -6,7 +6,7 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 17:09:06 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/01 11:13:46 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 14:36:32 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 #include "libft.h"
 //#include <stdlib.h>
 
-int	ft_numlen(int n)
+int	ft_numlen(long n)
 {
 	int	count;
 
@@ -24,8 +24,8 @@ int	ft_numlen(int n)
 	if (n == 0)
 		return (1);
 	if (n < 0)
-		count = 1;
-	while (n != 0)
+		n = -n;
+	while (n > 0)
 	{
 		n = n / 10;
 		count++;
@@ -33,42 +33,30 @@ int	ft_numlen(int n)
 	return (count);
 }
 
-void	ft_str(char *str, int n, int len)
-{
-	int	i;
-
-	i = len - 1;
-	if (n == 0)
-	{
-		str[0] = '0';
-		return ;
-	}
-	while (n != 0)
-	{
-		if (n < 0)
-			str[i] = -(n % 10) + '0';
-		else
-			str[i] = (n % 10) + '0';
-		n = n / 10;
-		i--;
-	}
-}
-
 char	*ft_itoa(int n)
 {
-	int			len;
-	char		*str;
+	long	nb;
+	int		len;
+	char	*str;
 
-	if (n == -2147483648)
-		return (ft_strdup("-2147483648"));
-	len = ft_numlen(n);
+	nb = (long)n;
+	if (nb < 0)
+		nb = -nb;
+	len = ft_numlen((long)n);
 	str = malloc(sizeof(char) * (len + 1));
 	if (!str)
 		return (NULL);
+	str[len] = '\0';
 	if (n < 0)
 		str[0] = '-';
-	str[len] = '\0';
-	ft_str(str, n, len);
+	if (n == 0)
+		str[0] = '0';
+	while (nb > 0)
+	{
+		len--;
+		str[len] = (nb % 10) + '0';
+		nb = nb / 10;
+	}
 	return (str);
 }
 

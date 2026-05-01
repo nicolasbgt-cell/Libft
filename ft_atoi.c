@@ -6,7 +6,7 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:16:12 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/01 11:14:06 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 14:39:41 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,9 @@
 
 int	ft_atoi(const char *str)
 {
-	int	neg;
-	int	num;
-	int	i;
+	int		neg;
+	long	num;
+	int		i;
 
 	i = 0;
 	neg = 1;
@@ -35,9 +35,13 @@ int	ft_atoi(const char *str)
 	while (str[i] >= '0' && str[i] <= '9')
 	{
 		num = num * 10 + (str[i] - '0');
+		if (num * neg > INT_MAX)
+			return (INT_MAX);
+		if (num * neg < INT_MIN)
+			return (INT_MIN);
 		i++;
 	}
-	return (num * neg);
+	return ((int)(num * neg));
 }
 
 /*int	main(void)

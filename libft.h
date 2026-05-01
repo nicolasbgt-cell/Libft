@@ -6,7 +6,7 @@
 /*   By: nbigot <nbigot@learner.42.tech>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:44:51 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/29 18:30:17 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 14:41:48 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,8 @@
 
 # include <unistd.h>
 # include <stdio.h>
+# include <stdlib.h>
+# include <limits.h>
 
 typedef struct s_list
 {

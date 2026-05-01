@@ -6,7 +6,7 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:15:45 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/01 11:32:46 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 12:18:11 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,13 +14,13 @@
 // caracteres de big et retourne un pointeur sur la premiere occurrence
 
 #include "libft.h"
-#include <stdlib.h>
+//#include <stdlib.h>
 
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
 	size_t	i;
 	size_t	j;
-	
+
 	if (little[0] == '\0')
 		return ((char *)big);
 	i = 0;
@@ -36,7 +36,7 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	return (NULL);
 }
 
-int main(void)
+/*int	main(void)
 {
 	char	*res;
 	
@@ -56,4 +56,4 @@ int main(void)
 	printf("big vide -> [%s]\n", res ? res : "(null)");
 	
 	return (0);
-}
+}*/

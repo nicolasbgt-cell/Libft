@@ -6,7 +6,7 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/24 11:58:41 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/01 11:14:45 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 14:06:30 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 
 	if (del == NULL || lst == NULL || *lst == NULL)
 		return ;
-	while (lst && *lst)
+	while (*lst)
 	{
 		tmp = (*lst)->next;
 		ft_lstdelone(*lst, del);
