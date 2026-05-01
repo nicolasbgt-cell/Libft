@@ -6,12 +6,14 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:09:16 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/24 13:48:36 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/04/30 14:11:58 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Retourne 1 si le caractère c est imprimable (ASCII 32 à 126), 0 sinon
+
 #include "libft.h"
-#include <ctype.h>
+//#include <ctype.h>
 
 int	ft_isprint(int c)
 {

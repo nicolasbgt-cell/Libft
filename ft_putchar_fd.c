@@ -6,21 +6,20 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 17:10:25 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/24 13:49:42 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/04/28 13:34:44 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void    ft_putchar_fd(char c, int fd)
+void	ft_putchar_fd(char c, int fd)
 {
-    write(fd, &c, 1);
+	write(fd, &c, 1);
 }
 
-/*int main(void)
+/*int	main(void)
 {
-    ft_putchar_fd('a', 1);
-    ft_putchar_fd('\n', 1);
-
-    return (0);
+	ft_putchar_fd('a', 1);
+	ft_putchar_fd('\n', 1);
+	return (0);
 }*/

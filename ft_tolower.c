@@ -6,7 +6,7 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:12:59 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/24 13:50:22 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/04/28 14:20:12 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,17 +14,16 @@
 
 int	ft_tolower(int c)
 {
-    if (c >= 65 && c <= 90 )
-    {
-        c = c + 32;
-    }
-    return (c);
+	if (c >= 65 && c <= 90)
+	{
+		c = c + 32;
+	}
+	return (c);
 }
 
-/*int main(void)
+/*int	main(void)
 {
-    char    test = 'A';
-
-    printf("Le resultat est : %c\n", ft_tolower(test));
-    return (0);
+	char    test = 'A';
+	printf("Le resultat est : %c\n", ft_tolower(test));
+	return (0);
 }*/

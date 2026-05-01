@@ -6,42 +6,45 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:11:21 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/24 13:44:17 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/04/30 16:35:53 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//Cette fonction permet de copier un bloc de mémoire spécifié
+//par le paramètre source dans un nouvel emplacement
+//désigné par le paramètre destination
 
 #include "libft.h"
 
 void	*ft_memmove(void *dest, const void *src, size_t size)
 {
-    unsigned char *ptr1;
-    unsigned char *ptr2;
-    size_t  i;
+	unsigned char		*ptr1;
+	unsigned char		*ptr2;
 
-    if (dest == NULL || src == NULL)
-        return (NULL);
-
-    ptr1 = (unsigned char *)dest;
-    ptr2 = (unsigned char *)src;
-
-    if (dest < src)
-    {
-        i = 0;
-        while (i < size)
-        {
-            ptr1[i] = ptr2[i];
-            i++;
-        }
-    }
-    
-    if (dest > src)
-    {
-        i = size;
-        while (i > 0)
-        {
-            ptr1[i - 1] = ptr2[i - 1];
-            i--;
-        }
-    }
-    return (dest);
+	if (!dest && !src)
+		return (NULL);
+	ptr1 = (unsigned char *)dest;
+	ptr2 = (unsigned char *)src;
+	if (dest < src)
+	{
+		while (size--)
+			*ptr1++ = *ptr2++;
+	}
+	else
+	{
+		while (size--)
+			ptr1[size] = ptr2[size];
+	}
+	return (dest);
 }
+
+/*int	main(void)
+{
+	char	src[] = "Bonjour";
+	char	dest[8];
+
+	ft_memmove(dest, src, 8);
+	printf("%s\n", dest);
+
+	return (0);
+}*/

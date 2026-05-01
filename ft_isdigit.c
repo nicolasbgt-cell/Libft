@@ -6,9 +6,11 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:05:26 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/24 13:48:27 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/04/29 17:38:47 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//Cette fonction permet de tester si un caractère est un chiffe
 
 #include "libft.h"
 

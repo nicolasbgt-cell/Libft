@@ -6,9 +6,11 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:08:44 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/24 13:48:19 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/04/29 17:37:55 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//Cette fonction permet de tester si un caractère est dans la table ASCII
 
 #include "libft.h"
 

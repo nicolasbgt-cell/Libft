@@ -6,9 +6,12 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:10:36 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/24 13:47:49 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/04/29 17:28:54 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//La fonction ft_bzero ecrit des octets de valeur zero 
+//dans un bloc d'octet
 
 #include "libft.h"
 

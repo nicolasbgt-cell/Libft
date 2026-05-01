@@ -6,8 +6,12 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 17:08:07 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/22 12:19:17 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/04/28 17:07:00 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+char	*ft_strtrim(char const *s1, char const *set)
+{
+}
