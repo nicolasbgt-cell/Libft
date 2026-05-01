@@ -6,13 +6,13 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:11:21 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/30 16:35:53 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 11:13:17 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//Cette fonction permet de copier un bloc de mémoire spécifié
-//par le paramètre source dans un nouvel emplacement
-//désigné par le paramètre destination
+//Cette fonction permet de copier un bloc de memoire specifie
+//par le parametre source dans un nouvel emplacement
+//designe par le parametre destination
 
 #include "libft.h"
 

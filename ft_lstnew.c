@@ -6,12 +6,14 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/24 11:56:26 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/29 14:44:03 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 11:13:36 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+// Cree et retourne un nouvel element de liste avec content comme valeur
+
 #include "libft.h"
-#include <stdlib.h>
+//#include <stdlib.h>
 
 t_list	*ft_lstnew(void *content)
 {

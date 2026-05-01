@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nbigot <nbigot@learner.42.tech>            +#+  +:+       +#+        */
+/*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/28 12:39:03 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/29 17:57:37 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 11:13:32 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//Recherche la première occurence d'une valeur typée int
-//mais interprétée en tant que char, dans un bloc de mémoire
+//Recherche la premiere occurence d'une valeur typee int
+//mais interpretee en tant que char, dans un bloc de memoire
 
 #include "libft.h"
 

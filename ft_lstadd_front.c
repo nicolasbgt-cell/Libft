@@ -6,12 +6,12 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/24 11:56:57 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/30 16:44:03 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 11:14:42 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//Ajoute un noeud au début de la liste en le faisant 
-//pointer sur l'ancien premier élément
+//Ajoute un noeud au debut de la liste en le faisant 
+//pointer sur l'ancien premier element
 
 #include "libft.h"
 

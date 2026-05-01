@@ -6,9 +6,11 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/24 11:57:36 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/30 14:30:24 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 11:13:41 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Retourne le dernier element de la liste chainee lst
 
 #include "libft.h"
 

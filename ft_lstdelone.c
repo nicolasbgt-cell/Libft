@@ -6,9 +6,12 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/24 11:58:21 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/30 14:10:15 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 11:14:49 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//Supprime et libere un seul noeud en appelant del 
+//sur son contenu puis free sur le noeud
 
 #include "libft.h"
 //#include <stdlib.h>

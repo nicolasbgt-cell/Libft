@@ -6,11 +6,11 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:09:16 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/30 14:11:58 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 11:13:49 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//Retourne 1 si le caractère c est imprimable (ASCII 32 à 126), 0 sinon
+//Retourne 1 si le caractere c est imprimable (ASCII 32 à 126), 0 sinon
 
 #include "libft.h"
 //#include <ctype.h>

@@ -6,11 +6,11 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:10:58 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/29 18:18:56 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 11:13:30 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//La fonction memcpy() copie n octets depuis la zone
+//La fonction memcpy copie n octets depuis la zone
 //mémoire src vers la zone mémoire dest
 
 #include "libft.h"

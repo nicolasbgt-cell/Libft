@@ -6,12 +6,12 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:16:45 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/30 14:12:19 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 11:14:03 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//Cette fonction alloue un bloc de mémoire
-//en initialisant tous ces octets à la valeur 0
+//Cette fonction alloue un bloc de memoire
+//en initialisant tous ces octets a la valeur 0
 
 #include "libft.h"
 //#include <stdlib.h>

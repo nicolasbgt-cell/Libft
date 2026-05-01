@@ -6,14 +6,14 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/24 11:58:41 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/30 16:38:09 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 11:14:45 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//Supprime et libère tous les noeuds de la liste.
+//Supprime et libere tous les noeuds de la liste
 //lst : pointeur sur le pointeur de la liste
-//del : fonction utilisée pour libérer le contenu de chaque nœud
-//NULL : met le pointeur de la liste à NULL après avoir tout libéré
+//del : fonction utilisee pour liberer le contenu de chaque noeud
+//NULL : met le pointeur de la liste a NULL apres avoir tout libere
 //next : permet de parcourir les noeuds un par un avant de les free
 
 #include "libft.h"

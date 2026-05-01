@@ -6,12 +6,15 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 17:09:26 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/29 16:40:54 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 11:05:18 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+// Cree une nouvelle chaine en appliquant f 
+// a chaque caractere de s avec son index.
+
 #include "libft.h"
-#include <stdlib.h>
+//#include <stdlib.h>
 
 char	*ft_strmapi(const char *src, char (*f)(unsigned int, char))
 {

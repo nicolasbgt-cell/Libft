@@ -6,9 +6,11 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 13:44:25 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/28 13:45:51 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 11:13:22 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Retourne un pointeur vers la premiere occurrence de c dans la chaine s
 
 #include "libft.h"
 

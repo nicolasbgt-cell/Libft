@@ -6,12 +6,15 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 17:07:04 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/29 16:38:44 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 11:01:06 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+// Alloue et retourne une nouvelle chaîne
+// résultant de la concaténation de s1 et s2.
+
 #include "libft.h"
-#include <stdlib.h>
+//#include <stdlib.h>
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {

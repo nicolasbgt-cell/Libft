@@ -6,11 +6,11 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:07:19 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/29 17:35:29 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 11:14:01 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//Cette fonction permet de tester si un caractère est alpha-numérique ou non
+//Cette fonction permet de tester si un caractere est alpha-numerique ou non
 
 #include "libft.h"
 

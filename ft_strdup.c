@@ -6,12 +6,14 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:17:00 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/30 11:18:13 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 11:13:25 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+// Alloue et retourne une copie de la chaine src
+
 #include "libft.h"
-#include <stdlib.h>
+//#include <stdlib.h>
 
 char	*ft_strdup(const char *src)
 {

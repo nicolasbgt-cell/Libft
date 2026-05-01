@@ -6,9 +6,12 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 17:09:47 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/28 13:55:17 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 11:13:27 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Applique la fonction f a chaque caractere de
+// s en passant son index en parametre
 
 #include "libft.h"
 

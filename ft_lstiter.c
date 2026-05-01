@@ -6,9 +6,11 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/24 11:59:29 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/29 12:01:29 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 11:13:44 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Applique la fonction f a chaque element de la liste chainee lst
 
 #include "libft.h"
 //#include <stdlib.h>

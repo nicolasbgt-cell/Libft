@@ -6,12 +6,12 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:10:13 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/29 18:29:35 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 11:13:20 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// Cette fonction permet de remplir une zone mémoire
-// identifiée par son adresse et sa taille, avec une valeur précise. 
+// Cette fonction permet de remplir une zone memoire
+// identifiee par son adresse et sa taille, avec une valeur precise. 
 
 #include "libft.h"
 

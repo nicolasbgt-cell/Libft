@@ -6,9 +6,11 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/24 11:57:13 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/29 12:34:25 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 11:13:34 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Retourne le nombre d'elements de la liste chainee lst.
 
 #include "libft.h"
 

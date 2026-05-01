@@ -6,9 +6,12 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:12:08 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/29 17:03:56 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 11:03:10 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Concatène src à dest en limitant à size octets 
+// et retourne la longueur totale visée.
 
 #include "libft.h"
 

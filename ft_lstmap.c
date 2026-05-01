@@ -6,12 +6,15 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/24 11:59:09 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/29 16:11:15 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/01 11:13:38 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+// Cree une nouvelle liste en appliquant f à chaque element
+//de lst, et utilise del en cas d'echec.
+
 #include "libft.h"
-#include <stdlib.h>
+//#include <stdlib.h>
 
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
