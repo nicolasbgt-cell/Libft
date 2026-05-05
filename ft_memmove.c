@@ -6,7 +6,7 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:11:21 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/01 14:10:10 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/05 13:54:05 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	*ft_memmove(void *dest, const void *src, size_t size)
 	unsigned char		*ptr1;
 	unsigned char		*ptr2;
 
-	if (!dest || !src)
+	if (!dest && !src)
 		return (NULL);
 	ptr1 = (unsigned char *)dest;
 	ptr2 = (unsigned char *)src;
