@@ -6,7 +6,7 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/23 14:14:50 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/29 18:01:46 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/05 10:28:25 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,8 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	unsigned char		*ptr2;
 	size_t				i;
 
+	if (!s1 || !s2)
+		return (0);
 	ptr1 = (unsigned char *)s1;
 	ptr2 = (unsigned char *)s2;
 	i = 0;

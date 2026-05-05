@@ -6,7 +6,7 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 17:09:06 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/01 14:36:32 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/05 10:32:38 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,8 @@ char	*ft_itoa(int n)
 	if (nb < 0)
 		nb = -nb;
 	len = ft_numlen((long)n);
+	if (n < 0)
+		len++;
 	str = malloc(sizeof(char) * (len + 1));
 	if (!str)
 		return (NULL);

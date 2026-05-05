@@ -6,7 +6,7 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/24 11:56:57 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/01 11:14:42 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/05 10:28:07 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@
 
 void	ft_lstadd_front(t_list **lst, t_list *new)
 {
+	if (!lst || !new)
+		return ;
 	new->next = *lst;
 	*lst = new;
 }

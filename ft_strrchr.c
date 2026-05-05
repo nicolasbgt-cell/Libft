@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nbigot <nbigot@learner.42.tech>            +#+  +:+       +#+        */
+/*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:13:23 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/01 13:35:42 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/05 10:28:54 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ char	*ft_strrchr(const char *s, int c)
 {
 	size_t	i;
 
+	if (!s)
+		return (NULL);
 	i = ft_strlen(s);
 	while (1)
 	{

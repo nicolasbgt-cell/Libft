@@ -6,7 +6,7 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 17:06:45 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/01 13:36:27 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/05 10:28:56 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,8 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	size_t	i;
 	char	*res;
 
+	if (!s)
+		return (NULL);
 	len = calculer_len(s, start, len);
 	res = malloc(len + 1);
 	if (!res)

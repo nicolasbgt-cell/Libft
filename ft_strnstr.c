@@ -6,7 +6,7 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:15:45 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/01 12:18:11 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/05 10:28:52 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,8 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	size_t	i;
 	size_t	j;
 
+	if (!big || !little)
+		return (NULL);
 	if (little[0] == '\0')
 		return ((char *)big);
 	i = 0;

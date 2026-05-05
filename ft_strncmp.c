@@ -6,9 +6,12 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:14:30 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/28 14:17:03 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/05 10:28:10 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Compare les n premiers caracteres
+// de s1 et s2, retourne 0 si egaux sinon leur difference
 
 #include "libft.h"
 
@@ -16,6 +19,8 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	size_t	i;
 
+	if (!s1 || !s2)
+		return (0);
 	i = 0;
 	if (n < 1)
 		return (0);

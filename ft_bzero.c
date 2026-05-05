@@ -6,7 +6,7 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:10:36 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/29 17:28:54 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/05 10:28:50 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ void	ft_bzero(void *s, size_t n)
 {
 	unsigned char	*ptr;
 
+	if (!s)
+		return ;
 	ptr = (unsigned char *)s;
 	while (n > 0)
 	{

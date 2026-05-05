@@ -6,7 +6,7 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 17:09:47 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/01 11:13:27 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/04 11:44:25 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ void	ft_striteri(char *src, void (*f)(unsigned int, char *))
 {
 	unsigned int	i;
 
+	if (!src || !f)
+		return ;
 	i = 0;
 	while (src[i] != '\0')
 	{

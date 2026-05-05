@@ -6,12 +6,12 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:10:13 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/01 11:13:20 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/04 12:07:15 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 // Cette fonction permet de remplir une zone memoire
-// identifiee par son adresse et sa taille, avec une valeur precise. 
+// identifiee par son adresse et sa taille, avec une valeur precise
 
 #include "libft.h"
 
@@ -20,6 +20,8 @@ void	*ft_memset(void	*b, int c, size_t len)
 	unsigned char		*ptr;
 	size_t				i;
 
+	if (!b)
+		return (NULL);
 	ptr = (unsigned char *)b;
 	i = 0;
 	while (i < len)

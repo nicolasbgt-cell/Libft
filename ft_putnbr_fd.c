@@ -6,7 +6,7 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 17:11:42 by nbigot            #+#    #+#             */
-/*   Updated: 2026/04/28 13:40:14 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/05 10:28:45 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,12 +15,8 @@
 void	printnb(long nb, int fd)
 {
 	if (nb / 10)
-	{
 		printnb(nb / 10, fd);
-		printnb(nb % 10, fd);
-	}
-	else
-		ft_putchar_fd(nb + '0', fd);
+	ft_putchar_fd(nb % 10 + '0', fd);
 }
 
 void	ft_putnbr_fd(int n, int fd)

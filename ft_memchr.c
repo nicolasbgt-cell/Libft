@@ -6,7 +6,7 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/28 12:39:03 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/01 11:13:32 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/05 11:44:52 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,8 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	unsigned char	*ptr;
 	size_t			i;
 
+	if (!s)
+		return (NULL);
 	ptr = (unsigned char *)s;
 	i = 0;
 	while (i < n)

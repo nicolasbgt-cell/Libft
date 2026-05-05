@@ -6,7 +6,7 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 17:08:07 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/01 13:06:41 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/05 10:28:59 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,6 +53,8 @@ char	*ft_strtrim(char const *s1, char const *set)
 	size_t	i;
 	char	*res;
 
+	if (!s1 || !set)
+		return (NULL);
 	start = find_start(s1, set);
 	end = find_end(s1, set, start);
 	res = malloc(end - start + 1);

@@ -6,7 +6,7 @@
 /*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 11:10:58 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/01 11:13:30 by nbigot           ###   ########.fr       */
+/*   Updated: 2026/05/05 11:54:21 by nbigot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t count)
 	unsigned char		*ptr2;
 	size_t				i;
 
-	if (dest == NULL || src == NULL)
+	if (dest == NULL && src == NULL)
 		return (NULL);
 	ptr1 = (unsigned char *)dest;
 	ptr2 = (unsigned char *)src;
