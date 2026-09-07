@@ -1,18 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_memcmp.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/23 14:14:50 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/05 10:28:25 by nbigot           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-//Cette fonction comparer le contenu de deux blocs de memoire
-//et si elle n'est pas egal elle renvoi la difference
-
 #include "libft.h"
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)

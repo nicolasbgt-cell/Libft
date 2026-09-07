@@ -1,18 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strlcat.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/20 11:12:08 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/04 11:42:06 by nbigot           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-// Concatene src à dest en limitant a size octets 
-// et retourne la longueur totale visee
-
 #include "libft.h"
 
 size_t	ft_strlcat(char *dest, const char *src, size_t size)

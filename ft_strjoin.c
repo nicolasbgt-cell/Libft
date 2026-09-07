@@ -1,18 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strjoin.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/21 17:07:04 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/04 11:22:58 by nbigot           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-// Alloue et retourne une nouvelle chaine
-// resultant de la concatenation de s1 et s2
-
 #include "libft.h"
 //#include <stdlib.h>
 

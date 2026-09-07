@@ -1,18 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_lstadd_front.c                                  :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/24 11:56:57 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/05 10:28:07 by nbigot           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-//Ajoute un noeud au debut de la liste en le faisant 
-//pointer sur l'ancien premier element
-
 #include "libft.h"
 
 void	ft_lstadd_front(t_list **lst, t_list *new)

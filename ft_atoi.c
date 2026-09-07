@@ -1,18 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_atoi.c                                          :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/20 11:16:12 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/05 10:28:47 by nbigot           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-// Cette fonction permet de transformer une chaine de caracteres
-// en une valeur numerique de type int
-
 #include "libft.h"
 
 int	ft_atoi(const char *str)

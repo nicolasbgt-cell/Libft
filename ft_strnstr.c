@@ -1,18 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strnstr.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/20 11:15:45 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/05 10:28:52 by nbigot           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-// Recherche little dans les len premiers 
-// caracteres de big et retourne un pointeur sur la premiere occurrence
-
 #include "libft.h"
 //#include <stdlib.h>
 

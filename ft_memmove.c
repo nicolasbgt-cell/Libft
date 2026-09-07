@@ -1,19 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_memmove.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/20 11:11:21 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/05 13:54:05 by nbigot           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-//Cette fonction permet de copier un bloc de memoire specifie
-//par le parametre source dans un nouvel emplacement
-//designe par le parametre destination
-
 #include "libft.h"
 
 void	*ft_memmove(void *dest, const void *src, size_t size)

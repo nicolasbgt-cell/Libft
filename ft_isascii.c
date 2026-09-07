@@ -1,17 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_isascii.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/20 11:08:44 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/01 11:13:55 by nbigot           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-//Cette fonction permet de tester si un caractere est dans la table ASCII
-
 #include "libft.h"
 
 int	ft_isascii(int c)

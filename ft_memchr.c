@@ -1,18 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_memchr.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/28 12:39:03 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/05 11:44:52 by nbigot           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-//Recherche la premiere occurence d'une valeur typee int
-//mais interpretee en tant que char, dans un bloc de memoire
-
 #include "libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)

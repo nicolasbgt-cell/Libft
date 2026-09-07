@@ -1,18 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_itoa.c                                          :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/21 17:09:06 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/05 14:37:35 by nbigot           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-// Convertit un entier en chaine de caracteres allouee dynamiquement
-// et la retourne
-
 #include "libft.h"
 //#include <stdlib.h>
 

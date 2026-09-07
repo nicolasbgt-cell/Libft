@@ -1,18 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_striteri.c                                      :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/21 17:09:47 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/04 11:44:25 by nbigot           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-// Applique la fonction f a chaque caractere de
-// s en passant son index en parametre
-
 #include "libft.h"
 
 void	ft_striteri(char *src, void (*f)(unsigned int, char *))

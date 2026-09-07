@@ -1,17 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_isalpha.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/20 11:05:01 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/01 11:13:58 by nbigot           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-//Cette fonction permet de tester si un caractere est alphabetique ou non
-
 #include "libft.h"
 
 int	ft_isalpha(int c)

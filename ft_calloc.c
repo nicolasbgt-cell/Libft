@@ -1,18 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_calloc.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/20 11:16:45 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/01 11:14:03 by nbigot           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-//Cette fonction alloue un bloc de memoire
-//en initialisant tous ces octets a la valeur 0
-
 #include "libft.h"
 //#include <stdlib.h>
 

@@ -1,18 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/20 11:10:58 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/05 11:54:21 by nbigot           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-//La fonction memcpy copie n octets depuis la zone
-//mémoire src vers la zone mémoire dest
-
 #include "libft.h"
 #include <string.h>
 

@@ -1,21 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_lstclear.c                                      :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/24 11:58:41 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/01 14:06:30 by nbigot           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-//Supprime et libere tous les noeuds de la liste
-//lst : pointeur sur le pointeur de la liste
-//del : fonction utilisee pour liberer le contenu de chaque noeud
-//NULL : met le pointeur de la liste a NULL apres avoir tout libere
-//next : permet de parcourir les noeuds un par un avant de les free
-
 #include "libft.h"
 //#include <stdlib.h>
 

@@ -1,18 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_bzero.c                                         :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/20 11:10:36 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/05 10:28:50 by nbigot           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-//La fonction ft_bzero ecrit des octets de valeur zero 
-//dans un bloc d'octet
-
 #include "libft.h"
 
 void	ft_bzero(void *s, size_t n)

@@ -1,17 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strchr.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: nbigot <nbigot@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/21 13:44:25 by nbigot            #+#    #+#             */
-/*   Updated: 2026/05/01 11:13:22 by nbigot           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-// Retourne un pointeur vers la premiere occurrence de c dans la chaine s
-
 #include "libft.h"
 
 char	*ft_strchr(const char *s, int c)
